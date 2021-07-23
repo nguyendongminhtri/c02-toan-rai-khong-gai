@@ -28,7 +28,7 @@
                         <mat-error *ngIf="emailFormControl.hasError('required')">The email is required</mat-error>
                         <mat-error *ngIf="emailFormControl.hasError('email')">The email invalid! Please try: Ex: chinhcomhut@gmail.com</mat-error>
                     </mat-form-field><br>
-                    <!-- EMAIL -->
+                    <!-- Pass -->
                     <mat-form-field style="width: 350px" appearance="outline">
                         <mat-label>Enter your password</mat-label>
                         <input name="password" matInput [type]="hide ? 'password' : 'text'" [(ngModel)]="form.password" #password="ngModel" required minlength="6" maxlength="100" >
